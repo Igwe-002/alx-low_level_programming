@@ -10,7 +10,7 @@ int main(void)
 char ch, new_line;
 
 new_line = '\n';
-for (ch = 'z';ch >= 'a';)
+for (ch = 'z'; ch >= 'a';)
 
 {
 putchar(ch);
