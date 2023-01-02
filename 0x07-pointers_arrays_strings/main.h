@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /**
- * File: holberton.h
+ * File: Main.h
  * Desc: Header file containing prototypes for all functions
  *       used in the 0x07-pointers_arrays_strings directory.
  */
