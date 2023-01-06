@@ -1,8 +1,8 @@
 #ifndef  MAIN_H
 #define MAIN_H
 
-int _isupper(int);
 char *_memset(char *s, char b, unsigned int n);
+int _isupper(int c);
 char *_strcat(char *dest, char *src);
 int _atoi(char *s);
 int _isdigit(int c);
