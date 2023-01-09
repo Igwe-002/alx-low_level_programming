@@ -33,7 +33,7 @@ int number(char *str)
 void free_everything(char **string, int i)
 {
 	for (; i > 0;)
-		free(string[--i]);
+	free(string[--i]);
 	free(string);
 }
 
@@ -54,7 +54,7 @@ char **strtow(char *str)
 		return (NULL);
 	words = malloc((total_words + 1) * sizeof(char *));
 	if (words == 0)
-                return (NULL);
+	       	return (NULL);
 	for (; *str != '\0' &&  b < total_words;)
 	{
 		if (*str == ' ')
@@ -80,7 +80,9 @@ char **strtow(char *str)
 				c++;
 			}
 			words[b][c] = '\0';
-			b++; c = 0; length = 0; str++;
+			b++;
+		       	c = 0; length = 0; 
+			str++;
 		}
 	}
 	return (words);
