@@ -74,6 +74,7 @@ void *_calloc(unsigned int number, unsigned int size)
 		p[a] = 0;
 	return (p);
 }
+
 /**
  * main - function to multiply
  * @argc: number of arguments passed
