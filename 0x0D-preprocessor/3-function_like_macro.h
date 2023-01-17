@@ -4,7 +4,7 @@
  * Desc: Header file that defines a function-like macro ABS(x)
  *       that computes the absolute value of a number x.
  */
-#ifndef abs_h
-#define abs_h
+#ifndef ABS_H
+#define ABS_H
 #define ABS(x) (x > 0 ? x : x * -1)
 #endif
