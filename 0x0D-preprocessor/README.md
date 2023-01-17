@@ -20,6 +20,8 @@ Write a program that prints the name of the file it was compiled from, followed 
 You are allowed to use the standard library
 
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c -o c
+cp 2-main.c 02-main.c
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 02-main.c -o cc
 
 3. Function-like macro
 mandatory
